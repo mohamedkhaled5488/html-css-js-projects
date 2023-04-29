@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    height: 30rem;
+    width: 30rem;
+    background-color: white;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    position: relative;
+    border: black solid 2px;
+    border-radius: 8px ;
+    position: relative;
+}
+.question_section{
+display: flex;
+align-items: center;
+/* justify-content: center; */
+flex-direction: column;
+padding: 1rem 1rem;
+/* margin: 0rem 0.5rem ; */
+height: 10rem;
+position: absolute;
+top: 1rem;
+
+}
+.question_section span{
+
+    font-size: 1rem;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.answers{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin: 0.5rem 4rem ;
+}
+.answers input{
+    font-size: 1rem;
+}
+.answers label  {
+    margin-left: 5px;
+    cursor: pointer;
+}
+#a{
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
+}
+
+button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #732d91;
+}
+

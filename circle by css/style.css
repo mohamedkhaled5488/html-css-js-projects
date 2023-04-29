@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    flex-wrap: wrap;
+    /* top: 50%;
+    bottom: 50%; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+.firsr-circle{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.secound-cericle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.third-cericle{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.mydiv{
+    display: flex;
+    flex-direction: column;
+}
